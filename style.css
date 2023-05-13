@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./hole-5318215.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+nav {
+    font-family: 'courier new', monospace;
+    text-decoration: none;
+}
+ul {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+}
+ li {
+    margin: 1%;
+    color: white;
+ }
+ .hero-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white; 
+    font-family: 'courier new', monospace;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+.bio-pic {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20%;
+}
+
+article h1 {
+    font-family: 'courier new', monospace;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+article p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'courier new', monospace;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 6%;
+} 
+@media screen and (min-width: 375px) and (max-width: 1240px) {
+    article p {
+        margin-bottom: 6%;
+    }
+    
+    
+}
